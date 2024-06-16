@@ -20,7 +20,14 @@
     "require": {
         "php": ">=8.0",
         "filament/support": "^3.2"
+        "awcodes/filament-tiptap-editor": "dev-master"
     },
+     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/OverboredThekid/filament-tiptap-editor"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Firefly\\FilamentBlog\\": "src/",
